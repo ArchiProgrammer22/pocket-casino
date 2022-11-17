@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895006077426",
+    "firebase_url": "https://casinoapp-bea6b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "casinoapp-bea6b",
+    "storage_bucket": "casinoapp-bea6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895006077426:android:5ae987adb6d3fa70f5bb6b",
+        "android_client_info": {
+          "package_name": "com.example.casinoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895006077426-jdag6t1jcldlftcrj3mj6r0r0o02c1c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZuXWDaPt2cOgxM0n17KZQ82lj8w7rImY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895006077426-jdag6t1jcldlftcrj3mj6r0r0o02c1c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loadingFragment">
+
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.example.casinoapp.presentation.fragments.LoadingFragment"
+        android:label="fragment_loading"
+        tools:layout="@layout/fragment_loading" >
+        <action
+            android:id="@+id/action_loadingFragment_to_gameMenuFragment"
+            app:destination="@id/gameMenuFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.casinoapp.presentation.fragments.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/gameMenuFragment"
+        android:name="com.example.casinoapp.presentation.fragments.GameMenuFragment"
+        android:label="fragment_game_menu"
+        tools:layout="@layout/fragment_game_menu" >
+        <action
+            android:id="@+id/action_gameMenuFragment_to_updateScoreFragment"
+            app:destination="@id/updateScoreFragment" />
+        <action
+            android:id="@+id/action_gameMenuFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_gameMenuFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateScoreFragment"
+        android:name="com.example.casinoapp.presentation.fragments.UpdateScoreFragment"
+        android:label="fragment_update_score"
+        tools:layout="@layout/fragment_update_score" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.casinoapp.presentation.fragments.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.example.casinoapp.presentation.fragments.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" />
+</navigation>
